@@ -28,6 +28,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
     origin: [
+      'https://igti-desafio-4-front.herokuapp.com',
       'http://localhost:8080',
       'http://localhost:3000'
     ],
